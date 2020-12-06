@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-
+let gitDefinition = 'Git is a version control software. It is very useful to keep track of changes being made to project/code.'
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = 'Github is a platform/software that leverages the functionality of git but also has its own resources for maintaining/working on repositories/code'
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -34,7 +34,10 @@
 */
 
 //CODE HERE
-
+let init = {
+    description : 'initialize an existing directory as a Git repository',
+    code : 'git init'
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +45,10 @@
 */
 
 //CODE HERE
-
+let clone = {
+    description : 'retrieve an entire repository from a hosted location via URL',
+    code : 'git clone url'
+}
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -50,7 +56,10 @@
 */
 
 //CODE HERE
-
+let status = {
+    description : 'show modified files in working directory, ready to be committed',
+    code : 'git status'
+}
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +67,10 @@
 */
 
 //CODE HERE
-
+let add = {
+    description : 'add a file as it looks now to your next commit ',
+    code : 'git add [file/ .]'
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +78,10 @@
 */
 
 //CODE HERE
-
+let commit = {
+    description : 'commit your staged content as a new commit snapshot with a message',
+    code : 'git commit -m "message"'
+}
 //////////////////PROBLEM 8////////////////////
 /*
     Create an object called 'addRemote' with 'description' and 'code' properties
@@ -74,7 +89,10 @@
 */
 
 //CODE HERE
-
+let addRemote = {
+    description : 'add a git URL as an alias',
+    code : 'git remote add origin'
+}
 //////////////////PROBLEM 9////////////////////
 /*
     Create an object called 'push' with 'description' and 'code' properties 
@@ -82,3 +100,7 @@
 */
 
 //CODE HERE
+let push = {
+    description : "Transmits local branch commits to the remote repository branch",
+    code : 'git push'
+}
